@@ -1,0 +1,160 @@
+{
+    "total": 100,
+    "results": [
+        {
+            "id": "NHU05104088",
+            "description": "Nestling bill-snapping.",
+            "duration": 19786.667,
+            "categories": [{ "className": "Nature", "p": 0.999999 }],
+            "location": { "continent": "Europe" },
+            "tags": ["tawny", "strix", "aluco", "owl"],
+            "source": "natural_history_unit",
+            "technicalMetadata": {
+                "file_name": "NHU05104088.wav",
+                "sample_rate": "44100",
+                "bits_per_sample": 16,
+                "channels": 2,
+                "duration": "19.786667"
+            },
+            "additionalMetadata": {
+                "usage": "",
+                "locationText": "Northumberland, UK",
+                "habitat": "Woodlands",
+                "recordist": "",
+                "bandDescription": "TAWNY OWL (STRIX ALUCO)"
+            },
+            "fileSizes": {
+                "wavFileSize": "3490596",
+                "mp3FileSize": "317884"
+            },
+            "file": {
+                "small": { "name": "NHU05104088", "bitrate": "128kbps" },
+                "original": { "name": "NHU05104088", "bitrate": "" }
+            }
+        },
+        {
+            "id": "07066051",
+            "description": "Heavy rain on roof.",
+            "duration": 45000,
+            "categories": [{ "className": "Nature", "p": 0.998 }],
+            "location": { "continent": "Europe" },
+            "tags": ["rain", "weather", "roof"],
+            "source": "bbc_archive",
+            "technicalMetadata": {
+                "file_name": "07066051.wav",
+                "sample_rate": "44100",
+                "bits_per_sample": 16,
+                "channels": 1,
+                "duration": "45.0"
+            },
+            "additionalMetadata": {
+                "usage": "",
+                "locationText": "London, UK",
+                "habitat": "",
+                "recordist": "",
+                "bandDescription": "HEAVY RAIN"
+            },
+            "fileSizes": {
+                "wavFileSize": "7938000",
+                "mp3FileSize": "720000"
+            },
+            "file": {
+                "small": { "name": "07066051", "bitrate": "128kbps" },
+                "original": { "name": "07066051", "bitrate": "" }
+            }
+        },
+        {
+            "id": "07076144",
+            "description": "Thunder clap.",
+            "duration": 8000,
+            "categories": [{ "className": "Nature", "p": 0.995 }],
+            "location": { "continent": "Asia" },
+            "tags": ["thunder", "storm", "lightning"],
+            "source": "bbc_archive",
+            "technicalMetadata": {
+                "file_name": "07076144.wav",
+                "sample_rate": "44100",
+                "bits_per_sample": 16,
+                "channels": 2,
+                "duration": "8.0"
+            },
+            "additionalMetadata": {
+                "usage": "",
+                "locationText": "",
+                "habitat": "",
+                "recordist": "",
+                "bandDescription": "THUNDER"
+            },
+            "fileSizes": {
+                "wavFileSize": "1411200",
+                "mp3FileSize": "128000"
+            },
+            "file": {
+                "small": { "name": "07076144", "bitrate": "128kbps" },
+                "original": { "name": "07076144", "bitrate": "" }
+            }
+        },
+        {
+            "id": "07066100",
+            "description": "City traffic.",
+            "duration": 60000,
+            "categories": [{ "className": "Transport", "p": 0.992 }],
+            "location": { "continent": "Europe" },
+            "tags": ["traffic", "city", "cars"],
+            "source": "bbc_archive",
+            "technicalMetadata": {
+                "file_name": "07066100.wav",
+                "sample_rate": "44100",
+                "bits_per_sample": 16,
+                "channels": 2,
+                "duration": "60.0"
+            },
+            "additionalMetadata": {
+                "usage": "",
+                "locationText": "London, UK",
+                "habitat": "Urban",
+                "recordist": "",
+                "bandDescription": "CITY TRAFFIC"
+            },
+            "fileSizes": {
+                "wavFileSize": "10584000",
+                "mp3FileSize": "960000"
+            },
+            "file": {
+                "small": { "name": "07066100", "bitrate": "128kbps" },
+                "original": { "name": "07066100", "bitrate": "" }
+            }
+        },
+        {
+            "id": "07066200",
+            "description": "Church bells ringing.",
+            "duration": 30000,
+            "categories": [{ "className": "Bells", "p": 0.999 }],
+            "location": { "continent": "Europe" },
+            "tags": ["bells", "church", "ringing"],
+            "source": "bbc_archive",
+            "technicalMetadata": {
+                "file_name": "07066200.wav",
+                "sample_rate": "44100",
+                "bits_per_sample": 16,
+                "channels": 2,
+                "duration": "30.0"
+            },
+            "additionalMetadata": {
+                "usage": "",
+                "locationText": "England, UK",
+                "habitat": "",
+                "recordist": "",
+                "bandDescription": "CHURCH BELLS"
+            },
+            "fileSizes": {
+                "wavFileSize": "5292000",
+                "mp3FileSize": "480000"
+            },
+            "file": {
+                "small": { "name": "07066200", "bitrate": "128kbps" },
+                "original": { "name": "07066200", "bitrate": "" }
+            }
+        }
+    ]
+}
