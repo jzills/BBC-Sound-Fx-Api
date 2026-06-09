@@ -2,6 +2,13 @@ import { BBCCategory } from "./types/bbc-fx-criteria";
 import { AggregationResponse, BBCFxResponse, BBCSound } from "./types/bbc-fx-response";
 import QueryBuilder from "./builders/query-builder";
 
+export class BBCFxError extends Error {
+    constructor(readonly status: number, message: string) {
+        super(message);
+        this.name = "BBCFxError";
+    }
+}
+
 export default class BBCFx {
     static readonly BASE_URL = "https://sound-effects-api.bbcrewind.co.uk";
     static readonly MEDIA_URL = "https://sound-effects-media.bbcrewind.co.uk";
@@ -15,7 +22,7 @@ export default class BBCFx {
         if (response.ok) {
             return response.json();
         } else {
-            throw new Error(await response.text());
+            throw new BBCFxError(response.status, await response.text());
         }
     }
 
@@ -24,7 +31,7 @@ export default class BBCFx {
         if (response.ok) {
             return response.json();
         } else {
-            throw new Error(await response.text());
+            throw new BBCFxError(response.status, await response.text());
         }
     }
 
@@ -37,7 +44,7 @@ export default class BBCFx {
         if (response.ok) {
             return response.json();
         } else {
-            throw new Error(await response.text());
+            throw new BBCFxError(response.status, await response.text());
         }
     }
 
@@ -50,7 +57,7 @@ export default class BBCFx {
         if (response.ok) {
             return response.json();
         } else {
-            throw new Error(await response.text());
+            throw new BBCFxError(response.status, await response.text());
         }
     }
 
@@ -59,7 +66,7 @@ export default class BBCFx {
         if (response.ok) {
             return response.json();
         } else {
-            throw new Error(await response.text());
+            throw new BBCFxError(response.status, await response.text());
         }
     }
 
@@ -68,7 +75,7 @@ export default class BBCFx {
         if (response.ok) {
             return response.json();
         } else {
-            throw new Error(await response.text());
+            throw new BBCFxError(response.status, await response.text());
         }
     }
 
