@@ -1,4 +1,4 @@
-import BBCFx from "./bbc-fx";
+import BBCFx, { BBCFxError } from "./bbc-fx";
 import QueryBuilder from "./builders/query-builder";
 import CategoryQueryBuilder from "./builders/category-query-builder";
 import LocationQueryBuilder from "./builders/location-query-builder";
@@ -10,6 +10,7 @@ export type { BBCSound, BBCFxResponse, AggregationResponse } from "./types/bbc-f
 
 export {
     BBCFx,
+    BBCFxError,
     BBCFxRequestBuilder,
     QueryBuilder,
     CategoryQueryBuilder,
