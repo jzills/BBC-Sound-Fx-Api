@@ -12,4 +12,4 @@ A TypeScript client library for the [BBC Sound Effects](https://sound-effects.bb
 
 ## Usage
 
-Documentation can be found [here](https://github.com/jzills/BBC-Sound-Fx-Api/blob/main/README.md).
+Documentation can be found [here](https://github.com/jzills/bbc-sound-fx-api/blob/main/README.md).
